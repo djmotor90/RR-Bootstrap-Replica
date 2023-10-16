@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+
+import TopBar from './components/TopBar.js'
+import StoreListing from './components/StoreListing';
+import Background from './components/Background';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       
-      </header>
+   
+      <TopBar />
+      <Background />
+      <StoreListing />
     </div>
   );
 }
-
 export default App;
